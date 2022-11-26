@@ -1,0 +1,83 @@
+.slogan {
+    margin-top: -1rem;
+    margin-bottom: 0.5rem;
+    font-size: .675em;
+    color: #6c757d
+}
+
+.bg-nb {
+    background-color: #e3f2fd;
+}
+
+.jumbotron {
+    padding-top: 2rem 1rem;
+    background-color: #f1f6ff;
+}
+
+.jb-img {
+    width: 100%;
+    height: auto;
+    max-height: 25rem;
+}
+
+.jb-cpt {
+    --bs-text-opacity: 1;
+    color: #ffffff !important;
+    font-weight: bold;
+}
+
+.peswa {
+    margin-right: 300px;
+}
+
+.nowa {
+    text-decoration: none;
+    font-size: 50px;
+}
+
+@media (max-width: 576px) {
+    .judul {
+        font-size: 16px !important;
+    }
+
+    .slogan {
+        font-size: 12px !important;
+    }
+
+    .spill {
+        text-align: center;
+    }
+
+    #menuPilihan {
+        position: absolute !important;
+        width: 1px !important;
+        height: 1px !important;
+        padding: 0 !important;
+        margin: -1px !important;
+        overflow: hidden !important;
+        clip: rect(0, 0, 0, 0) !important;
+        white-space: nowrap !important;
+        border: 0 !important
+    }
+
+    .peswa {
+        margin-right: -300px;
+    }
+
+    .nowa {
+        text-decoration: none;
+        font-size: 16px;
+    }
+
+    .img-wa {
+        position: absolute !important;
+        width: 1px !important;
+        height: 1px !important;
+        padding: 0 !important;
+        margin: -1px !important;
+        overflow: hidden !important;
+        clip: rect(0, 0, 0, 0) !important;
+        white-space: nowrap !important;
+        border: 0 !important
+    }
+}

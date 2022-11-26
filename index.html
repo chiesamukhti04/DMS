@@ -1,0 +1,344 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dapur Mukhti Sari</title>
+    <link href="style-extra.css" rel="stylesheet">
+    <link href="./css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar bg-nb fixed-top shadow">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="/Image/LOGO MUKHTI SARI.png" alt="Logo DAPUR MUKHTI SARI" width="40" height="40"
+                    class="d-inline-block align-text-top" />
+                <figure class="position-absolute top-50 start-50 translate-middle text-center">
+                    <blockquote>
+                        <p class="judul">DAPUR MUKHTI SARI</p>
+                    </blockquote>
+                    <figcaption class="slogan">
+                        <cite title="Source Title">Fresh | Deliciouse | Fair</cite>
+                    </figcaption>
+                </figure>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">NAVIGASI</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Daftar Menu</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Contact Me
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Pemesanan</a></li>
+                                <li><a class="dropdown-item" href="#">Social Media</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">About me</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex mt-3" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- END OF NAVBAR -->
+
+    <!-- CONTENT -->
+    <div><br></div>
+
+    <!-- SLIDE SHOW -->
+    <section class="jumbotron text-center">
+        <div id="carouselExampleCaptions" class="carousel slide carousel-fade shadow-lg" data-bs-ride="false">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="Image/Makanan/gurame-asam-manis.jpg" class="jb-img d-block w-100 rounded-2" alt="slide 1">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="display-6 fw-bold shadow-sm">GURAME <small class="jb-cpt">ASAM MANIS</small></h5>
+                        <p class="fs-4">Potongan daging ikan gurame segar dibaluri tepung crispy, dihidangkan bersama
+                            saus asam manis yang lezat dan bergizi.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="Image/Makanan/nasi-goreng-spesial.jpg" class="jb-img d-block w-100 rounded-2"
+                        alt="Slide 2">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="display-6 fw-bold shadow-sm">Nasi Goreng <small class="jb-cpt">SPESIAL</small></h5>
+                        <p class="fs-4">Nasi Goreng dengan toping lengkap + Double telur.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="Image/Makanan/udang-cirspy.jpg" class="jb-img d-block w-100 rounded-2" alt="Slide 3">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="display-6 fw-bold shadow-sm">UDANG <small class="jb-cpt"> GORENG CRISPY</small></h5>
+                        <p class="fs-4">Udang segar dibaluri tepung yang renyah + saus sambal pedas.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <svg id="wave" style="transform:rotate(0deg); transition: 0.3s" viewBox="0 0 1440 140" version="1.1"
+            xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
+                    <stop stop-color="rgba(255, 255, 255, 1)" offset="0%"></stop>
+                    <stop stop-color="rgba(255, 255, 255, 1)" offset="100%"></stop>
+                </linearGradient>
+            </defs>
+            <path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)"
+                d="M0,70L34.3,65.3C68.6,61,137,51,206,49C274.3,47,343,51,411,49C480,47,549,37,617,42C685.7,47,754,65,823,74.7C891.4,84,960,84,1029,72.3C1097.1,61,1166,37,1234,39.7C1302.9,42,1371,70,1440,70C1508.6,70,1577,42,1646,28C1714.3,14,1783,14,1851,25.7C1920,37,1989,61,2057,60.7C2125.7,61,2194,37,2263,42C2331.4,47,2400,79,2469,91C2537.1,103,2606,93,2674,79.3C2742.9,65,2811,47,2880,49C2948.6,51,3017,75,3086,79.3C3154.3,84,3223,70,3291,67.7C3360,65,3429,75,3497,77C3565.7,79,3634,75,3703,79.3C3771.4,84,3840,98,3909,95.7C3977.1,93,4046,75,4114,67.7C4182.9,61,4251,65,4320,56C4388.6,47,4457,23,4526,21C4594.3,19,4663,37,4731,44.3C4800,51,4869,47,4903,44.3L4937.1,42L4937.1,140L4902.9,140C4868.6,140,4800,140,4731,140C4662.9,140,4594,140,4526,140C4457.1,140,4389,140,4320,140C4251.4,140,4183,140,4114,140C4045.7,140,3977,140,3909,140C3840,140,3771,140,3703,140C3634.3,140,3566,140,3497,140C3428.6,140,3360,140,3291,140C3222.9,140,3154,140,3086,140C3017.1,140,2949,140,2880,140C2811.4,140,2743,140,2674,140C2605.7,140,2537,140,2469,140C2400,140,2331,140,2263,140C2194.3,140,2126,140,2057,140C1988.6,140,1920,140,1851,140C1782.9,140,1714,140,1646,140C1577.1,140,1509,140,1440,140C1371.4,140,1303,140,1234,140C1165.7,140,1097,140,1029,140C960,140,891,140,823,140C754.3,140,686,140,617,140C548.6,140,480,140,411,140C342.9,140,274,140,206,140C137.1,140,69,140,34,140L0,140Z">
+            </path>
+        </svg>
+
+        <!-- <div class="">
+            <img src="image/Makanan/gurame-asam-manis.jpg" alt="Gurame Asam" class="jb-img">
+            <h1 class="display-6 fw-bold">GURAME <small class="text-muted">Asam Manis</small></h1>
+            <p class="fs-4">Potongan daging ikan gurame segar dibaluri tepung crispy, dihidangkan bersama saus
+                asam manis yang lezat dan bergizi.</p>
+            <button class="btn btn-primary btn-lg" type="button">Pesan Sekarang</button> 
+        </div> -->
+
+    </section>
+    <!-- END OF SLIDESHOW -->
+
+    <section id="welcome">
+        <div class="container spill">
+            <div class="row">
+                <div class="col">
+                    <h3 class="spill">SELAMAT DATANG DI DAPUR MUKHTI SARI</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <p class="spill">Kami menyediakan makanan cepat saji khas Indonesia citarasa Nusantara, dibuat
+                        dengan bahan-bahan
+                        pilihan dan berkualitas. <br> Resep turun temurun demi menjaga cita rasa yang khas serta menjadi
+                        pelipur lapar. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde nam, porro vero modi cumque omnis. Quod, nostrum. Veritatis, nisi porro!</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- <svg id="wave" style="transform:rotate(0deg); transition: 0.3s" viewBox="0 0 1440 130" version="1.1"
+            xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
+                    <stop stop-color="rgba(241, 246, 255, 1)" offset="0%"></stop>
+                    <stop stop-color="rgba(241, 246, 255, 1)" offset="100%"></stop>
+                </linearGradient>
+            </defs>
+            <path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)"
+                d="M0,39L48,32.5C96,26,192,13,288,26C384,39,480,78,576,78C672,78,768,39,864,30.3C960,22,1056,43,1152,43.3C1248,43,1344,22,1440,30.3C1536,39,1632,78,1728,93.2C1824,108,1920,100,2016,84.5C2112,69,2208,48,2304,39C2400,30,2496,35,2592,39C2688,43,2784,48,2880,45.5C2976,43,3072,35,3168,39C3264,43,3360,61,3456,60.7C3552,61,3648,43,3744,34.7C3840,26,3936,26,4032,30.3C4128,35,4224,43,4320,47.7C4416,52,4512,52,4608,58.5C4704,65,4800,78,4896,82.3C4992,87,5088,82,5184,73.7C5280,65,5376,52,5472,52C5568,52,5664,65,5760,60.7C5856,56,5952,35,6048,32.5C6144,30,6240,48,6336,54.2C6432,61,6528,56,6624,65C6720,74,6816,95,6864,106.2L6912,117L6912,130L6864,130C6816,130,6720,130,6624,130C6528,130,6432,130,6336,130C6240,130,6144,130,6048,130C5952,130,5856,130,5760,130C5664,130,5568,130,5472,130C5376,130,5280,130,5184,130C5088,130,4992,130,4896,130C4800,130,4704,130,4608,130C4512,130,4416,130,4320,130C4224,130,4128,130,4032,130C3936,130,3840,130,3744,130C3648,130,3552,130,3456,130C3360,130,3264,130,3168,130C3072,130,2976,130,2880,130C2784,130,2688,130,2592,130C2496,130,2400,130,2304,130C2208,130,2112,130,2016,130C1920,130,1824,130,1728,130C1632,130,1536,130,1440,130C1344,130,1248,130,1152,130C1056,130,960,130,864,130C768,130,672,130,576,130C480,130,384,130,288,130C192,130,96,130,48,130L0,130Z">
+            </path>
+        </svg> -->
+
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 130">
+            <path fill="#f1f6ff" fill-opacity="1"
+                d="M0,39L48,32.5C96,26,192,13,288,26C384,39,480,78,576,78C672,78,768,39,864,30.3C960,22,1056,43,1152,43.3C1248,43,1344,22,1440,30.3C1536,39,1632,78,1728,93.2C1824,108,1920,100,2016,84.5C2112,69,2208,48,2304,39C2400,30,2496,35,2592,39C2688,43,2784,48,2880,45.5C2976,43,3072,35,3168,39C3264,43,3360,61,3456,60.7C3552,61,3648,43,3744,34.7C3840,26,3936,26,4032,30.3C4128,35,4224,43,4320,47.7C4416,52,4512,52,4608,58.5C4704,65,4800,78,4896,82.3C4992,87,5088,82,5184,73.7C5280,65,5376,52,5472,52C5568,52,5664,65,5760,60.7C5856,56,5952,35,6048,32.5C6144,30,6240,48,6336,54.2C6432,61,6528,56,6624,65C6720,74,6816,95,6864,106.2L6912,117L6912,130L6864,130C6816,130,6720,130,6624,130C6528,130,6432,130,6336,130C6240,130,6144,130,6048,130C5952,130,5856,130,5760,130C5664,130,5568,130,5472,130C5376,130,5280,130,5184,130C5088,130,4992,130,4896,130C4800,130,4704,130,4608,130C4512,130,4416,130,4320,130C4224,130,4128,130,4032,130C3936,130,3840,130,3744,130C3648,130,3552,130,3456,130C3360,130,3264,130,3168,130C3072,130,2976,130,2880,130C2784,130,2688,130,2592,130C2496,130,2400,130,2304,130C2208,130,2112,130,2016,130C1920,130,1824,130,1728,130C1632,130,1536,130,1440,130C1344,130,1248,130,1152,130C1056,130,960,130,864,130C768,130,672,130,576,130C480,130,384,130,288,130C192,130,96,130,48,130L0,130Z">
+            </path>
+        </svg>
+    </section>
+
+    <section id="menuPilihan">
+        <div class="container-fluid" style="background-color:#f1f6ff">
+            <div class="row mb-2">
+                <h4 class="text-center">MENU PILIHAN</h4>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col">
+                    <div class="card m-3">
+                        <img src="Image/Makanan/gudeg.jpg" class="card-img-top img-thumbnail" alt="Gudeg">
+                        <div class="card-body">
+                            <h5 class="card-title">Gudeg</h5>
+                            <p class="card-text">Gudeg is made from young unripe jack fruit stewed for several hours
+                                with palm sugar, and coconut milk.</p>
+                            <a href="#" class="btn btn-primary">Kayanya Enak!</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card m-3">
+                        <img src="Image/Makanan/kwetiau-ayam.jpg" class="card-img-top img-thumbnail" alt="kwetiau ayam">
+                        <div class="card-body">
+                            <h5 class="card-title">Kwetiau Custom</h5>
+                            <p class="card-text">Kwetiau which are stir fried in cooking oil with garlic, onion,
+                                topping , chili, egg, and other vegetables with an ample amount of kecap manis.</p>
+                            <a href="#" class="btn btn-primary">Kayanya Enak!</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card m-3">
+                        <img src="Image/Makanan/ayan-gepuk.jpg" class="card-img-top img-thumbnail"
+                            alt="Ayam Gepuk Pedes">
+                        <div class="card-body">
+                            <h5 class="card-title">Ayam Gepuk</h5>
+                            <p class="card-text">Gepuk chicken using savory ungkep chicken. After being fried dry, the
+                                chicken is sliced with garlic and peanut sauce that kicks off.</p>
+                            <a href="#" class="btn btn-primary">Kayanya Enak!</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card m-3">
+                        <img src="Image/Makanan/sop-iga.jpg" class="card-img-top img-thumbnail" alt="Sop Iga">
+                        <div class="card-body">
+                            <h5 class="card-title">Sop Iga</h5>
+                            <p class="card-text">Oxtail soup is a soup made with beef tails. The use of the word "ox" in
+                                this context is a legacy of nomenclature</p>
+                            <a href="#" class="btn btn-primary">Kayanya Enak!</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card m-3">
+                        <img src="Image/Makanan/capcay-seafood.jpg" class="card-img-top img-thumbnail"
+                            alt="Capcay Custom">
+                        <div class="card-body">
+                            <h5 class="card-title">Capcay Custom</h5>
+                            <p class="card-text">Cap cai is the Hokkien-derived term for a popular Indonesian stir-fried
+                                vegetable
+                                dish that originates from Fujian cuisine.</p>
+                            <a href="#" class="btn btn-primary">Kayanya Enak!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section id="alamat">
+        <div class="container mt-4">
+            <div class="row">
+                <div class="col">
+                    <h1 class="display-6 spill">📍 LOKASI KAMI</h1>
+                </div>
+            </div>
+            <div class="row mt-4 mb-4 justify-content-center">
+                <div class="col-sm">
+                    <iframe class="rounded img-thumbnail"
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15866.489853389401!2d107.0344151!3d-6.1812586!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x783a474c7e83d180!2sDapur%20MUKHTI%20SARI!5e0!3m2!1sen!2sid!4v1667447232910!5m2!1sen!2sid"
+                        width="600" height="450" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="col-sm">
+                    <h2 class="spill">Alamat lengkap Dapur Mukhti Sari</h2>
+                    <p class="mt-3 spill">Perumahan Villa Gading Harapan Blok W7 / No.17, <br>Jl. Alpukat 1 | Rt.007 /
+                        Rw.021
+                        <br>Kel.
+                        Kebalen, Kec. Babelan, Kab. Bekasi <br>Jawa Barat - 17610
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container mt-4 justify-content-end text-end">
+            <div class="row">
+                <div class="col">
+                    <h3 class="fw-bold">CARA MEMESAN</h3>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col peswa">
+                    <span class="text-danger fw-bold">Pesan menggunakan WhatsApp :</span>
+                </div>
+            </div>
+
+            <div class="row justify-content-end">
+                <div class="col mt-3">
+                    <img src="image/whatsapp-svgrepo-com.svg" class="img-fluid img-wa" height="50px" width="50px"
+                        alt="WA DMS">
+                </div>
+                <div class="col-4">
+                    <a class="nowa" href="https://wa.me/6285691330984">0812 9136 1772</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col">
+                    <h3 class="fs-1">Available On </h3>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-sm-4">
+                    <img src="image/logo gofood.png" class="img-fluid" alt="gofood">
+                </div>
+                <div class="col-sm-4">
+                    <img src="image/grabfood-logo.png" class="img-fluid" alt="grabfood">
+                </div>
+                <div class="col-sm-4">
+                    <img src="image/shopee-food-indonesia-logo.png" class="img-fluid" alt="shopee food">
+                </div>
+                <div class="col-sm-4">
+                    <img src="image/traveloka-eats-logo.png" class="img-fluid" alt="traveloka eats">
+                </div>
+                <div class="col-sm-4">
+                    <img src="image/logo-maxim.png" class="img-fluid" alt="maxim">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- END OF CONTENT -->
+
+    <!-- FOR SCRIPT -->
+    <script src="./js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
+        </script>
+</body>
+
+<footer>
+    <div class="bg-info text-center mt-4">
+        <span>© 2022 DMS Copyright all reserve.</span>
+    </div>
+</footer>
+
+</html>
